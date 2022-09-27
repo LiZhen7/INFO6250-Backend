@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app {
+  margin: 0 20%;
+  padding: 10% 10%;
+
+  background-color: lightblue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 0.5rem;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+button {
+  margin: 0.5rem;
+}
+
+.resultInfo {
+  text-align: center;
+}

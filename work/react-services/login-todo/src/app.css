@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 20%;
+  padding: 10% 10%;
+
+  background-color: lightblue;
+}
+
+.login label {
+  margin: 0.5rem;
+}
+
+.login input {
+  margin: 0.5rem;
+}
+
+.login button {
+  margin: 0.5rem;
+}
+
+.todo {
+  margin: 0 20%;
+  padding: 10% 10%;
+
+  background-color: lightblue;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li:hover {
+  background-color: lightgray;
+}
+
+.todo form {
+  text-align: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}

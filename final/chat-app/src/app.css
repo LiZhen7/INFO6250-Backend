@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.login {
+    padding-top: 5%;
+    height: 100vh;
+
+    background-color: bisque;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 20%;
+    padding: 10% 10%;
+    border-radius: 5%;
+
+    background-color: burlywood;
+}
+
+.login label {
+    margin: 0.5rem;
+}
+
+.login input {
+    margin: 0.5rem;
+}
+
+.login button {
+    margin: 0.5rem;
+}
+
+.chatPage {
+    padding-top: 5px;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 0;
+    padding: 10px;
+    height: 70vh;
+
+    overflow: auto;
+}
+
+li {
+    margin: 5px 10px;
+
+    list-style: none;
+}
+
+li .user {
+    margin: 0;
+}
+
+li .content {
+    padding: 2px;
+    margin: 0;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.chatPage form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+}
+
+.chatPage form button {
+    font-size: 200%;
+    background-color: lightblue;
+}
+
+.chatPage textarea {
+    height: 20vh;
+    width: 90%;
+    font-size: 18.72px;
+    overflow: auto;
+    resize: none;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 10px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.dark {
+    background-color: dimgray;
+    color: white;
+}
+
+.dark form {
+    background-color: black;
+}
+
+.light {
+    background-color: bisque;
+    color: black;
+}
+
+.light form {
+    background-color: burlywood;
+}
